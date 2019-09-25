@@ -53,9 +53,9 @@ class Window(arcade.Window):
                 if a.center_x > c.center_x:
                     a.dx = abs(a.dx) * -1
                 if a.center_x < c.center_x:
-                    a.dx = abs(a.dx)
+                    a.dx = abs(a.dx) * 1
                 if a.center_y > c.center_y:
-                    a.dy = abs(a.dy)
+                    a.dy = abs(a.dy) * 1
                 if a.center_y < c.center_y:
                     a.dy = abs(a.dy) * -1
 
